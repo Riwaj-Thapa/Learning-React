@@ -1,0 +1,11 @@
+npm create vite@4.1.0
+
+
+
+node_modules
+
+public - images 
+
+src - App tsx
+
+index.html 
