@@ -1,0 +1,17 @@
+node_modules: external libraries and packages that our project realise on.
+
+public : For the static assets that don't need to be processed or transformed by build tools. 
+
+src: core of application resides in src folder.
+
+    assets >> images and vidoes 
+    components >>
+    pages >>
+    hools >>
+    context >>
+    services >>
+    utils >>
+    App.jsx >>
+    index.js >>
+    index.css >>
+    main.jsx >> main java file
