@@ -46,15 +46,31 @@
 
 
 // Conditional Rendering 
-import UserGreeting from "./UserGreeting.jsx"
+// import UserGreeting from "./UserGreeting.jsx"
+
+// function App(){
+//     return(
+//         <>
+//             <UserGreeting isLoggedIn={true} username="Riwaj"
+//             />
+//         </>
+//     );
+
+// }
+
+// export default App
+
+
+
+
+//render lists
+
+import List from './List.jsx'
 
 function App(){
     return(
-        <>
-            <UserGreeting isLoggedIn={true} username="Riwaj"
-            />
-        </>
-    );
+        <List/>
+    )
 
 }
 
