@@ -1,34 +1,56 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+// This is for creating card component.
 
-function App() {
-  const [count, setCount] = useState(0)
+// import Card from './Card.jsx'
 
-  return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+// function App() {
+//   return(
+//     <>
+//     <Card/>
+//     <Card/>
+//     <Card/>
+//     </>
+//   );
+  
+// }
+
+// export default App
+
+
+
+// This is the example for creating a props.
+
+// import Student from "./Student.jsx"
+
+// function App(){
+//   return(
+//     <>
+//     <Student name="Riwaj" age={21} isStudent={true}/>
+//     <Student/>
+//     </>
+    
+//   )
+// }
+
+// export default App 
+
+
+
+
+// Conditional rendering
+
+import UserGreting from "./UserGreeting";
+
+
+function App(){
+  return(
+  <>
+  <UserGreting isloggedIn ={true} username="Riwaj"/>
+
+  <UserGreting isloggedIn={true}/>
+  </>
   )
+  
+
 }
 
 export default App
