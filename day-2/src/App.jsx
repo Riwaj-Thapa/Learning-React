@@ -1,5 +1,6 @@
 // //rendering lists
 
+
 // import List from './List.jsx'
 
 // function App(){
@@ -30,15 +31,64 @@
 
 
 
-//Button components
+// //Button components
 
-import Button from "./Button"
-import ProfilePicture from "./ProfilePicture.jsx"
+// import Button from "./Button"
+// import ProfilePicture from "./ProfilePicture.jsx"
+
+// function App(){
+//   return(<ProfilePicture/>)
+// }
+
+// export default App
+
+
+// // MyComponents
+
+
+// import MyComponent from "./MyComponent";
+
+// function App(){
+  
+//   return(
+//     <MyComponent/>
+//   );
+
+
+// }
+
+// export default App
+
+
+
+
+
+// // Counter
+
+// import MyComponent from "./MyComponent";
+
+
+// function App(){
+
+//   return(<MyComponent/>)
+
+
+// }
+
+// export default App;
+
+
+// Color picker exercise 
+
+import ColorPicker from "./ColorPicker";
 
 function App(){
-  return(<ProfilePicture/>)
+  return(
+    <>
+    <ColorPicker/>
+    </>
+  )
+
 }
 
-export default App
-
-
+export default App;
