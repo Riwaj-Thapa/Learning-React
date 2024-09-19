@@ -63,7 +63,7 @@
 
 
 
-// // Counter
+// Counter
 
 // import MyComponent from "./MyComponent";
 
@@ -78,17 +78,46 @@
 // export default App;
 
 
-// Color picker exercise 
+// // Color picker exercise 
 
-import ColorPicker from "./ColorPicker";
+// import ColorPicker from "./ColorPicker";
+
+// function App(){
+//   return(
+//     <>
+//     <ColorPicker/>
+//     </>
+//   )
+
+// }
+
+// export default App;
+
+
+
+// Changing the state of an array 
+
+// import MyComponentArray from "./MyComponentArray";
+
+// function App(){
+
+//   return(<MyComponentArray/>)
+
+// }
+
+// export default App
+
+
+
+// Changing the state of object
+
+
+import MyComponentObject from "./MyComponentObject";
 
 function App(){
-  return(
-    <>
-    <ColorPicker/>
-    </>
-  )
-
+  return(<MyComponentObject/>)
 }
 
-export default App;
+export default App
+
+
