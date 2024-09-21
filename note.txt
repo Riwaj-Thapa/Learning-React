@@ -17,19 +17,22 @@ Routine for learning React and landing internship.
 
     Week 1: React Fundamentals
 
-    Day 1-2: Introduction to React
+    Day 1-2: Introduction to React  ✅
+
         What is React, why use it?
         Setup environment (Node.js, npm, create-react-app)
         JSX basics, components, props
         Resources:
         React Docs
         YouTube Tutorial (Traversy Media, Net Ninja)
-    Day 3-4: State and Lifecycle
+
+    Day 3-4: State and Lifecycle 
         Understanding useState and component lifecycle.
         Handling events, forms, and user inputs.
         Build: Simple form app that takes input and displays it dynamically.
         Resources:
         React Docs: State and Lifecycle
+
     Day 5-7: Props Drilling and Lifting State
         Learn about passing data between components (props).
         Learn to manage state across multiple components (lifting state).
@@ -45,12 +48,14 @@ Routine for learning React and landing internship.
         Practice side effects with API calls using useEffect.
         Resources:
         React Hooks Docs
+
     Day 10-11: React Router
         Learn routing with react-router-dom.
         Create multiple pages (e.g., Home, About, Contact) and navigate between them.
         Build: Simple blog app with multiple pages.
         Resources:
         React Router Docs
+
     Day 12-14: Context API and State Management
         Learn how to manage global state with Context API.
         Practice by managing global state in a small app.
@@ -61,14 +66,17 @@ Routine for learning React and landing internship.
 ============================================================================
 
 Week 3: Connecting React with Back-End (API Integration)
+
     Day 15-16: Fetching Data from APIs
         Learn to fetch and display data from an API using fetch or axios.
         Build: App that fetches data from an API (e.g., weather app or movie database app).
         Resources:
         Fetch Data with React
+
     Day 17-18: CRUD Operations
         Create, Read, Update, Delete (CRUD) with React and APIs.
         Build: To-Do app with full CRUD functionality (use a back-end or a fake API service like jsonplaceholder).
+
     Day 19-21: React Forms and Validation
         Deep dive into handling forms, validation, and user input.
         Build: User registration and login form (connect with an API).
@@ -83,14 +91,17 @@ Week 4: Project Development and Deployment
         Choose a project idea related to your internship goals (e.g., fitness app, e-commerce site, social media dashboard).
         Example: If you want to build a fitness tracker, integrate React with your existing Node.js backend.
         Focus on user registration, login, dashboard, and tracking functionality.
+
     Day 25-27: Optimization and State Management
         Learn about optimizing your app: lazy loading, memoization (useMemo and useCallback), and React performance tips.
         Integrate Redux for more complex state management (optional if you have time).
         Resources:
         React Optimization
+
     Day 28-29: Project Finalization and Styling
         Style your project using CSS-in-JS libraries like styled-components, Material-UI, or plain CSS.
         Test the app thoroughly and fix any bugs.
+        
     Day 30: Deployment and Showcase
         Deploy your app to platforms like Netlify, Vercel, or Heroku.
         Prepare a portfolio on GitHub and create documentation for your project.

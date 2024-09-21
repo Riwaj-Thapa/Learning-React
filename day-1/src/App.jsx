@@ -38,18 +38,34 @@
 
 // Conditional rendering
 
-import UserGreting from "./UserGreeting";
+// import UserGreting from "./UserGreeting";
 
+
+// function App(){
+//   return(
+//   <>
+//   <UserGreting isloggedIn ={true} username="Riwaj"/>
+
+//   <UserGreting isloggedIn={true}/>
+//   </>
+//   )
+  
+
+// }
+
+// export default App
+
+
+
+// list rendering
+
+import List from "./List";
 
 function App(){
-  return(
-  <>
-  <UserGreting isloggedIn ={true} username="Riwaj"/>
 
-  <UserGreting isloggedIn={true}/>
-  </>
-  )
-  
+  return(<>
+  <List/>
+  </>)
 
 }
 
