@@ -1,5 +1,7 @@
 
-import UseCallBack from "./UseCallback"
+import Footer from "./Components/Footer.jsx"
+import Profile from "./Components/Profile.jsx"
+
 import UseContext from "./UseContext/UseContext1.jsx"
 import Comp1 from "./UseEffect/Comp1.jsx"
 import UseMemo1 from "./UseMemo/UseMemo1.jsx"
@@ -12,7 +14,9 @@ function App(){
 
   return(
     <>
-    <UseContext/>
+      <Profile/>
+      <Footer/>
+
     </>
     
   )

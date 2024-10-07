@@ -1,7 +1,16 @@
-import React,{useState} from "react";
+import { createContext} from "react";
 
-function UseContext(){
+export const UseContext = createContext();
 
+const ContextProvider = (props) =>{
+    const phone = "+ 1212121"
+
+    return(
+        <UseContext.Provider value={phone}>
+            {props.phone}
+        </UseContext.Provider>
+
+    )
 }
 
-export default UseContext
+export default ContextProvider
