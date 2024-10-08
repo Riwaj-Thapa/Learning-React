@@ -1,22 +1,28 @@
-
+import React from "react";
 import Footer from "./Components/Footer.jsx"
 import Profile from "./Components/Profile.jsx"
+import Contact from "./Components/Contact.jsx";
+import UseReducer from "./UseReducer/UseReducer.jsx";
+import Example from "./UseLayoutEffect/Example.jsx";
+import UselocalStorage from "./CustomHooks/UselocalStorage.jsx";
 
-import UseContext from "./UseContext/UseContext1.jsx"
-import Comp1 from "./UseEffect/Comp1.jsx"
-import UseMemo1 from "./UseMemo/UseMemo1.jsx"
-import InputFeild from "./UseRef/InputFeild.jsx"
-import UseRefComp from "./UseRef/UseRefComp.jsx"
-import Car from "./UseState/Car.jsx"
-import Count from "./UseState/Count.jsx"
 
 function App(){
 
+  const [name, setName] = UselocalStorage('username','')
+
+  const [id, setId] = UselocalStorage('userid','')  
+
+
+
   return(
     <>
-      <Profile/>
-      <Footer/>
-
+     <input type="text" placeholder="Enter your name" value={name}
+     onChange={(e)=>setName(e.target.value)}/>
+    <h2>Hello, {name}</h2>
+    <input type="text" placeholder="Enter your id " value={id}
+     onChange={(e)=>setId(e.target.value)}/>
+    <h2>Your id: {id}</h2>
     </>
     
   )

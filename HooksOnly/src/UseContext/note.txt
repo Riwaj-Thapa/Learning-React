@@ -1,0 +1,2 @@
+Single variable ho vane use nothing but if it is multiple
+variable use {} while passing single variable too.

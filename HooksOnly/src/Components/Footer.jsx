@@ -1,13 +1,14 @@
-import React from 'react';
-function Footer(){
+import React, { useContext } from 'react'
+import { AppContext } from '../UseContext/AppContext'
 
-    return(
-        <div>
-            <h2>Footer</h2>
-        </div>
-    )
-
+const Footer=()=> {
+    const {phone} = useContext(AppContext)
+  return (
+    <div>
+      <h2>Footer</h2>
+      <h3>Phone Number: {phone}</h3>
+    </div>
+  )
 }
-
 
 export default Footer

@@ -1,8 +1,8 @@
-import { StrictMode } from 'react'
+import React from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import ContextProvider from './UseContext/UseContext1.jsx'
+import ContextProvider from './UseContext/AppContext.jsx'
 
 createRoot(document.getElementById('root')).render(
     <ContextProvider>
